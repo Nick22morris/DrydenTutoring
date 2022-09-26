@@ -1,0 +1,25 @@
+{% extends 'navbar.html' %} {% block content %}
+<div class="box">
+  <h1>Which works best for you?</h1>
+  <br />
+  <br />
+  <div class="flex-container" style="height: 100px">
+    <a class="special" href="/appointment/inperson">
+      <div class="outline special-link">
+        <center>
+          <h4 class="special" style="text-decoration: none">In Person</h4>
+        </center>
+      </div>
+    </a>
+    <div class="blank"></div>
+    <a class="special" href="/appointment/online">
+      <div class="outline special-link">
+        <center>
+          <h4 class="special" style="text-decoration: none">Online</h4>
+        </center>
+      </div>
+    </a>
+  </div>
+</div>
+
+{% endblock %}
