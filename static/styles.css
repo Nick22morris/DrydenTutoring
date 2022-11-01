@@ -108,7 +108,9 @@ nav a {
   text-decoration: none;
   color: #0d47a1
 }
-
+.popup {
+  display: none;
+}
  /* 
   Extra small devices (phones, 600px and down) 
 */
@@ -123,16 +125,21 @@ nav a {
   nav li {
     padding: 0.5rem 0;
   }
+  
 } 
 @media only screen and (max-width: 600px) {
   .smallwee {
       display: none;
   }
+  
   .fixer {
     height:170px;
   }
   .titly {
     font-size: 30px;
+  }
+  .popup {
+    display: none;
   }
 }
 .lim {
