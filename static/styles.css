@@ -111,6 +111,9 @@ nav a {
 .popup {
   display: none;
 }
+.wider {
+  width: 50%;
+}
  /* 
   Extra small devices (phones, 600px and down) 
 */
@@ -131,7 +134,9 @@ nav a {
   .smallwee {
       display: none;
   }
-  
+  .wider {
+    width: 80%;
+  }
   .fixer {
     height:170px;
   }
@@ -139,7 +144,9 @@ nav a {
     font-size: 30px;
   }
   .popup {
-    display: none;
+    display: block;
+    position: relative;
+    top: -275px;
   }
 }
 .lim {
