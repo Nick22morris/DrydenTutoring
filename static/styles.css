@@ -30,6 +30,12 @@ footer {
   flex-direction: row;
   justify-content: space-around;
 }
+.flex-container-tight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .content {
   width: 50%;
   
@@ -114,6 +120,17 @@ nav a {
 .wider {
   width: 50%;
 }
+.logo {
+  height: 80px;
+  width: 80px;
+}
+.big-logo {
+  height: 150px;
+  width: 150px;
+}
+.gray {
+  color:#6E757C;
+}
  /* 
   Extra small devices (phones, 600px and down) 
 */
@@ -151,4 +168,7 @@ nav a {
 }
 .lim {
   width: 80%
+}
+.selected {
+  color: black;
 }
