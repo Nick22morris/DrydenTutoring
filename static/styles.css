@@ -172,3 +172,6 @@ nav a {
 .selected {
   color: black;
 }
+.faq{
+  line-height: 1.6;
+}
